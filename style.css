@@ -1,0 +1,340 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+ }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: myFirstFont;
+}
+
+.navbar-brand{
+    color:rgb(175, 74, 74)
+}
+.navbar-brand:hover{
+    color:rgb(245, 6, 6);
+}
+.navbar-brand h1{
+  align-self: center;
+}
+.navbar-nav .nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #000;
+    font-family: 'rubik', sans-serif;
+    text-transform: uppercase;
+}
+.navbar-nav .nav-link:hover{
+    color:rgb(245, 6, 6);
+    background-color: rgb(70, 63, 63);
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'rubik', sans-serif;
+    border: 2px solid rgb(133, 126, 131);
+}
+.button0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(248, 2, 2);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.main{
+    background: url(https://i.pinimg.com/736x/d5/82/54/d582542f39d843ba08daa92c4b0b1f05.jpg);
+    background-color: rgb(164, 164, 197);
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h1{
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    
+}
+.button1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 2, 2);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    
+}
+.button1:hover{
+    background-color: rgb(146, 4, 4);
+}
+
+.h1{
+    font-weight: 700;
+}
+.card:hover{
+    box-shadow: -2px -1px 39px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 39px -4px rgba(0,0,0,0.75);
+box-shadow: -2px -1px 39px -4px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+
+.cover{
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(Images/cover.jpg)no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.cover h1{
+    font-family: 'Lobster', cursive;
+}
+
+.button2{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 2, 2);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    
+}
+.button2:hover{
+    background-color: rgb(70, 63, 63);
+}
+
+.button3{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 2, 2);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    
+}
+.button3:hover{
+    background-color: rgb(146, 4, 4);
+}
+
+.button4{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 2, 2);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+
+}
+.button4:hover{
+    background-color: rgb(146, 4, 4);
+}
+
+.join{
+    background-color: black;
+    color: white;
+}
+
+.button5{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.join input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+    
+}
+
+.join::placeholder{
+    color: white;
+    
+
+}
+
+.join h1{
+    font-family: 'rubik', sans-serif;
+}
+
+.join p{
+    font-family: 'rubik', sans-serif;
+    margin: 0;
+}
+.bi{
+    padding-right: 5px;
+}
+
+.icon-cart{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+svg{
+    width: 30px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+header .icon-cart{
+    position: relative;
+}
+header .icon-cart span{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: -20px;
+}
+.ListProduct .item .price{
+    letter-spacing: 7px;
+    font-size: small;
+}
+.ListProduct .item button{
+    background-color: #353432;
+    color: #eee;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer; 
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.subscribe {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subscribe input {
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+}
+
+.subscribe button {
+    padding: 10px 15px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.column {
+    flex: 1;
+    min-width: 150px;
+    margin: 10px;
+}
+
+.column h4 {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-icons span {
+    margin: 0 5px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.buttonstore {
+    height: 45px;
+    width: 100px;
+    background: white;
+    border: 2px solid white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.content-section{
+    float: left;
+    width: 55%;
+}
+.image-section{
+    float: right;
+    width: 40%;
+}
+
+.image-section img{
+    width: 100%;
+    height: auto;
+}
+
+.content-section .content h3{
+    margin-top: 10px;
+    color: rgb(163, 49, 49)
+}
+.content-section .content p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.content-section .content .button{
+    margin-top: 30px;
+
+}
+.content-section .content .button a{
+    background-color: red;
+    padding: 12px 40px;
+    text-decoration: none;
+    color:#fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+
+}
